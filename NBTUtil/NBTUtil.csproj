@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Substrate">
-      <HintPath>..\References\Substrate.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -61,6 +58,10 @@
     <ProjectReference Include="..\NBTModel\NBTModel.csproj">
       <Project>{20d7cba3-5b6d-40b0-8d28-4c9a58e4ffbc}</Project>
       <Name>NBTModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Substrate\SubstrateCS\Substrate (NET2).csproj">
+      <Project>{afe30e14-3f2f-4461-9f7d-147ab4dca4c3}</Project>
+      <Name>Substrate (NET2)</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
